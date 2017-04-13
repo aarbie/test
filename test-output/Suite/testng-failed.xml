@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.hotels.rajib_maven4617.rajibTest1"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest2"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest3"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest4"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest5"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest6"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest7"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest8"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.hotels.rajib_maven4617.rajibTest4">
+        <methods>
+          <include name="tearDown"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest4 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest7">
+        <methods>
+          <include name="tearDown"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest7 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest6">
+        <methods>
+          <include name="tearDown"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest6 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest2 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest3 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest5">
+        <methods>
+          <include name="completeSearch"/>
+          <include name="tearDown"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest5 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest1 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest8">
+        <methods>
+          <include name="tearDown"/>
+          <include name="check"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest8 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

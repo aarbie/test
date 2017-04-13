@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.hotels.rajib_maven4617.rajibTest1"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest2"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest3"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest4"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest5"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest6"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest7"/>
+      <class name="com.hotels.rajib_maven4617.rajibTest8"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.hotels.rajib_maven4617.rajibTest4">
+        <methods>
+          <include name="dateCheck"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest4 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest2">
+        <methods>
+          <include name="hotelSearch"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest2 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest5">
+        <methods>
+          <include name="completeSearch"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest5 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest7">
+        <methods>
+          <include name="googleAccount"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest7 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest8">
+        <methods>
+          <include name="check"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest8 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest1">
+        <methods>
+          <include name="testOnSignupPage"/>
+          <include name="inirtializeDriver"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest1 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest6">
+        <methods>
+          <include name="userAccount"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest6 -->
+      <class name="com.hotels.rajib_maven4617.rajibTest3">
+        <methods>
+          <include name="checkWithFacebookID"/>
+        </methods>
+      </class> <!-- com.hotels.rajib_maven4617.rajibTest3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
